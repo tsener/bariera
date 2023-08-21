@@ -12,10 +12,10 @@ sleep times are per the original BFT remote.
 
 ## Redeploy on fresh Raspberry
 
--It would be best to install DietPI.
--Make sure you have python 3.x and nginx installed
--Copy the nginx config  file over /etc/nginx/sites-available/default
--Satisfy the lib dependencies from bariera.py using pip install
--Place bariera.py e.g. in /opt, and make it executable
--Start it using python3 /opt/bariera.py
--Optionally  add the above to start on boot.
+- It would be best to install DietPI.
+- Make sure you have python 3.x and nginx installed
+- Copy the nginx config  file over /etc/nginx/sites-available/default
+- Satisfy the lib dependencies from bariera.py using pip install
+- Place bariera.py e.g. in /opt, and make it executable
+- Start it using python3 /opt/bariera.py
+- Optionally  add the above to start on boot.
